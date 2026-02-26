@@ -37,10 +37,10 @@ int main(){
     scanf("%s", t5.corExercito);
     printf("Digite o número de tropas do território 5:");
     scanf("%d", &t5.numTropas);
-    printf("\nTerritório 1: %s, Cor do Exército: %s, Número de Tropas: %d\n", t1.nome, t1.corExercito, t1.numTropas);
-    printf("Território 2: %s, Cor do Exército: %s, Número de Tropas: %d\n", t2.nome, t2.corExercito, t2.numTropas);
-    printf("Território 3: %s, Cor do Exército: %s, Número de Tropas: %d\n", t3.nome, t3.corExercito, t3.numTropas);
-    printf("Território 4: %s, Cor do Exército: %s, Número de Tropas: %d\n", t4.nome, t4.corExercito, t4.numTropas);
-    printf("Território 5: %s, Cor do Exército: %s, Número de Tropas: %d\n", t5.nome, t5.corExercito, t5.numTropas);
+    printf("\nTerritório 1: %s\nCor do Exército: %s\nNúmero de Tropas: %d\n", t1.nome, t1.corExercito, t1.numTropas);
+    printf("\nTerritório 2: %s\nCor do Exército: %s\nNúmero de Tropas: %d\n", t2.nome, t2.corExercito, t2.numTropas);
+    printf("\nTerritório 3: %s\nCor do Exército: %s\nNúmero de Tropas: %d\n", t3.nome, t3.corExercito, t3.numTropas);
+    printf("\nTerritório 4: %s\nCor do Exército: %s\nNúmero de Tropas: %d\n", t4.nome, t4.corExercito, t4.numTropas);
+    printf("\nTerritório 5: %s\nCor do Exército: %s\nNúmero de Tropas: %d\n", t5.nome, t5.corExercito, t5.numTropas);
     return 0;
 }
